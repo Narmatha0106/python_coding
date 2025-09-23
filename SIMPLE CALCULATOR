@@ -1,0 +1,15 @@
+print("****SIMPLE CALCULATOR****")
+a=float(input("enter the first number: "))
+b=float(input("enter the second number: "))
+operator=input("enter(+ - * /): ")
+if operator=="+":
+  print(a+b)
+elif operator=="-":
+    print(a-b)
+elif operator=="*":
+    print(a*b)
+elif operator=="/":
+    print(a/b)
+else:
+    print("Invalid operator")
+    
